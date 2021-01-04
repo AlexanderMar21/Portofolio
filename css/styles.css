@@ -361,6 +361,9 @@ p {
 .skills-content .right .mysql::before{
     width: 80%;
 }
+.skills-content .right .angular::before{
+    width: 50%;
+}
 .skills-content .right .react::before{
     width: 40%;
 }

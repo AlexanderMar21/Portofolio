@@ -347,7 +347,7 @@ p {
     background: var(--main-color);
 }
 .skills-content .right .html::before{
-    width: 90%;
+    width: 80%;
 }
 .skills-content .right .css::before{
     width: 65%;
@@ -359,7 +359,7 @@ p {
     width: 70%;
 }
 .skills-content .right .mysql::before{
-    width: 80%;
+    width: 75%;
 }
 .skills-content .right .angular::before{
     width: 50%;

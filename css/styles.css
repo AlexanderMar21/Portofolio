@@ -47,7 +47,7 @@ section .title{
     margin: auto;
 }
 
-.about .about-content, 
+.about .about-content,
 .projects .serv-content,
 .skills .skills-content {
     display: flex;
@@ -128,13 +128,13 @@ p {
 #contact-link:hover > a {
     color: white;
 
-} 
+}
 
 .nav-link {
     text-decoration: none;
     color: black;
     font-size: 18px;
-    text-transform: uppercase; 
+    text-transform: uppercase;
     letter-spacing: 2px;
 }
  .nav-item.active > .nav-link {
@@ -150,7 +150,7 @@ p {
  #contact-link:hover.nav-item.active > a {
     color: white;
  }
- 
+
 .nav-link:hover > span {
     transition: all 200ms ease-in;
     opacity: 1;
@@ -187,7 +187,7 @@ p {
 
 #top-arrow.top-arrow-mobile {
     bottom:4rem;
-    right: 2vw;  
+    right: 2vw;
 }
 
 #top-arrow > span{
@@ -213,7 +213,7 @@ p {
     font-family: 'Inconsolata', monospace;
     height:100vh;
     background-image: linear-gradient(to right bottom , rgba(68, 68, 68, 0.6) , rgba(140, 137, 137, 0.6)),url("../img/cover.jpg");
-    background-size: cover; 
+    background-size: cover;
     background-position:top right;
     background-attachment: fixed;
     display: flex;
@@ -350,7 +350,7 @@ p {
     width: 80%;
 }
 .skills-content .right .css::before{
-    width: 65%;
+    width: 75%;
 }
 .skills-content .right .js::before{
     width: 70%;
@@ -362,7 +362,10 @@ p {
     width: 75%;
 }
 .skills-content .right .angular::before{
-    width: 50%;
+    width: 55%;
+}
+.skills-content .right .vue::before{
+    width: 70%;
 }
 .skills-content .right .react::before{
     width: 40%;
@@ -524,7 +527,7 @@ footer h3 {
 }
 
 @media (max-width: 947px){
-   
+
     .nav-bar {
         flex-direction: column;
         align-items: flex-start;
@@ -548,7 +551,7 @@ footer h3 {
     #nav-ul.show {
         display: flex;
         margin-bottom: 1rem;
-             
+
     }
 
     .container{
@@ -562,7 +565,7 @@ footer h3 {
         justify-content: center;
         margin: 0 auto 6rem;
     }
-    
+
     .projects .serv-content .card{
         width: calc(50% - 1rem);
         margin-bottom: 20px;
@@ -572,7 +575,7 @@ footer h3 {
         width: 100%;
         margin-bottom: 3.5rem;
     }
-    
+
 }
 
 @media (max-width: 690px) {
@@ -596,11 +599,11 @@ footer h3 {
 }
 
 @media (max-height: 400) {
-    
+
     html {
         font-size: 50%;
     }
-    
+
 }
 
 
@@ -661,7 +664,5 @@ footer h3 {
     100% {
         opacity: 1;
         transform: translate(0) ;
-    } 
+    }
 }
-
-

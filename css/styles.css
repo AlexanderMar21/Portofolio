@@ -598,7 +598,7 @@ footer h3 {
     }
 }
 
-@media (max-height: 400) {
+@media (max-width: 400) {
 
     html {
         font-size: 50%;

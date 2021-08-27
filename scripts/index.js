@@ -27,7 +27,7 @@ let scrolled = false;
 // Resize window
 var client_w = document.documentElement.clientWidth;
 var client_h = document.documentElement.clientHeight;
-if ( client_w < 550 && client_h < 700 ){
+if ( client_w < 550 && client_h < 750 ){
     navabar.classList.remove("transparent");
 }else {
     // change nav-bar from transparent to visible background on first scroll
